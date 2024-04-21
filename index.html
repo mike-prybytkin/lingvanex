@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/svg/favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/vendors/font-awesome-4.7.0/css/font-awesome.min.css">
+  <title data-i18="titleName">Lingvanex. Test task</title>
+</head>
+
+<body class="body">
+  <header class="header" id="header">
+    <nav class="nav">
+      <div class="nav-menu">
+        <div class="nav-menu__heading"><span data-i18="companyFirstLetter">L</span></div>
+        <ul class="nav-menu__items">
+          <li class="nav-menu__item">
+            <a class="link" href="#header">
+              <span class="nav__link" data-i18="home">HOME</span>
+            </a>
+          </li>
+          <li class="nav-menu__item">
+            <a class="link" href="#language-solution">
+              <span class="nav__link" data-i18="about">LANGUAGE SOLUTION</span>
+            </a>
+          </li>
+          <li class="nav-menu__item">
+            <a class="link" href="#product">
+              <span class="nav__link" data-i18="education">PRODUCT</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-buttons">
+        <button class="button nav-button nav-button_toggle-menu burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <button class="button nav-button nav-button_toggle-lang" data-i18="buttonLang">EN</button>
+        <button class="button nav-button nav-button_toggle-theme">
+          <i class="fa fa-moon-o"></i>
+          <i class="fa fa-sun-o"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="section hero">
+      <div class="wrapper">
+        <div class="hero__content">
+          <div class="heading">
+            <h1 class="title" data-i18="heroTitle">Travel and Hospitality</h1>
+            <p class="heading__description" data-i18="heroDescription">
+              Offline & Online Translation: image translation, translation history, file translation, 
+              bookmarks, dictionary meaning. 
+            </p>
+          </div>
+          <div class="hero__button">
+            <button class="button button_colored button_padding-xl">
+              <span class="button__text" data-i18="heroButton">
+                Request a free trial
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section language-solution" id="language-solution">
+      <div class="wrapper">
+        <div class="language-solution__content">
+          <div class="heading">
+            <h2 class="title" data-i18="languageSolutionTitle">Our language solution</h2>
+            <p class="heading__description" data-i18="languageSolutionDescription">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  
+            </p>
+          </div>
+        </div>
+        <div class="language-solution__cards">
+          <div class="language-card">
+            <h3 class="title" data-i18="languageCardTitle1">Translation</h3>
+            <div class="language-card__description" data-i18="languageCardDescription1">
+              Unlimited and secure translation for fixed price. Translate billions of characters per day
+            </div>
+            <img class="language-card__img" src="/assets/img/card-1.png" alt="Translation">
+          </div>
+          <div class="language-card">
+            <h3 class="title" data-i18="languageCardTitle2">Social listening</h3>
+            <div class="language-card__description" data-i18="languageCardDescription2">
+              Unlimited and secure translation for fixed price. Translate billions of characters per day
+            </div>
+            <img class="language-card__img" src="/assets/img/card-2.png" alt="Social listening">
+          </div>
+          <div class="language-card">
+            <h3 class="title" data-i18="languageCardTitle3">Content generation</h3>
+            <div class="language-card__description" data-i18="languageCardDescription3">
+              Unlimited and secure translation for fixed price. Translate billions of characters per day
+            </div>
+            <img class="language-card__img" src="/assets/img/card-3.png" alt="Content generation">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section product-for" id="product">
+      <div class="wrapper">
+        <div class="product-for__content">
+          <div class="heading">
+            <h2 class="title" data-i18="productForTitle">Who is this product for?</h2>
+            <p class="heading__description" data-i18="productForDescription">
+              Lingvanex Bot can simply solve a language barrier problem in your team, community, 
+              with your international clients and outsourcing partners. It automatically identifies the languages 
+              in a conversation and translates all messages of your team members into a chosen language.  
+            </p>
+          </div>
+          <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__controls">
+                <button class="button button_colored" data-slideBtn="1">
+                  <span class="button__text" data-i18="slide1_title">
+                    For travelers
+                  </span>
+                </button>
+                <button class="button button_light" data-slideBtn="2">
+                  <span class="button__text" data-i18="slide2_title">
+                    For travel organization
+                  </span>
+                </button>
+                <button class="button button_light" data-slideBtn="3">
+                  <span class="button__text" data-i18="slide3_title">
+                    For employees
+                  </span>
+                </button>
+              </div>
+              <div class="slider__slides">
+                <div class="slide slide_1 active" data-slide="1">
+                  <div class="slide__text">
+                    <h2 class="title" data-i18="slide1_title">For travelers</h2>
+                    <ul class="slide__list">
+                      <li data-i18="slide1_item1">Highlight one word in the text on the page.</li>
+                      <li data-i18="slide1_item2">Word meaning, pronunciation, synonyms, hypernyms, hyponyms. And more.</li>
+                      <li data-i18="slide1_item3">Highlight one word in the text on the page.</li>
+                      <li data-i18="slide1_item4">Word meaning, pronunciation, synonyms, hypernyms, hyponyms. And more.</li>
+                    </ul>
+                  </div>
+                  <div class="slide__img">
+                    <img src="/assets/img/slide-1.png" alt="For travelers">
+                  </div>
+                </div>
+                <div class="slide slide_2" data-slide="2">
+                  <div class="slide__text">
+                    <h2 class="title" data-i18="slide2_title">For travel organization</h2>
+                    <ul class="slide__list">
+                      <li data-i18="slide2_item1">Highlight one word in the text on the page.</li>
+                      <li data-i18="slide2_item2">Word meaning, pronunciation, synonyms, hypernyms, hyponyms. And more.</li>
+                      <li data-i18="slide2_item3">Highlight one word in the text on the page.</li>
+                      <li data-i18="slide2_item4">Word meaning, pronunciation, synonyms, hypernyms, hyponyms. And more.</li>
+                    </ul>
+                  </div>
+                  <div class="slide__img">
+                    <img src="/assets/img/slide-2.png" alt="For travelers">
+                  </div>
+                </div>
+                <div class="slide slide_3" data-slide="3">
+                  <div class="slide__text">
+                    <h2 class="title" data-i18="slide3_title">For employees</h2>
+                    <ul class="slide__list">
+                      <li data-i18="slide3_item1">Highlight one word in the text on the page.</li>
+                      <li data-i18="slide3_item2">Word meaning, pronunciation, synonyms, hypernyms, hyponyms. And more.</li>
+                      <li data-i18="slide3_item3">Highlight one word in the text on the page.</li>
+                      <li data-i18="slide3_item4">Word meaning, pronunciation, synonyms, hypernyms, hyponyms. And more.</li>
+                    </ul>
+                  </div>
+                  <div class="slide__img">
+                    <img src="/assets/img/slide-3.png" alt="For travelers">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-for__button">
+            <button class="button button_colored button_padding-xl">
+              <span class="button__text" data-i18="heroButton">
+                Request a free trial
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script type="module" src="./script/index.js"></script>
+</body>
+
+</html>

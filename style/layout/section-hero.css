@@ -1,0 +1,9 @@
+.hero__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero__button {
+  padding-top: var(--gap-2);
+}

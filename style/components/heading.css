@@ -1,0 +1,14 @@
+.heading {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.heading__description {
+  margin: 2rem 0 0 0;
+  color: var(--color-text-dark-2);
+}
+
+.dark-theme .heading__description {
+  color: var(--color-text-main-dark);
+}
