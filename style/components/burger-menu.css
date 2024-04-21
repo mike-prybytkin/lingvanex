@@ -1,0 +1,110 @@
+.nav {
+  position: fixed;
+  display: flex;
+  gap: 20px;
+  width: 240px;
+  height: 100%;
+  background: var(--color-bg-burger-menu);
+  z-index: 3;
+  box-shadow: var(--section-shadow);
+  transition: var(--transition-global);
+  transform: translateX(-100%);
+}
+
+.dark-theme .nav {
+  background: var(--color-bg-block-dark);
+}
+
+.nav.is-active {
+  transform: translateX(0);
+}
+
+.nav-menu__heading {
+  width: 240px;
+  height: 240px;
+  background: var(--color-brand);
+  text-align: center;
+}
+
+.dark-theme .nav-menu__heading {
+  background: var(--color-main-dark);
+}
+
+.nav-menu__heading span {
+  font-size: 10rem;
+  color: var(--color-text-secondary);
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  border: 6px solid var(--color-text-secondary);
+  margin-top: calc(240px / 2 - 140px / 2);
+}
+
+.nav-menu__items {
+  padding: 2rem 0 0 2rem;
+  font-size: 1.6rem;
+  list-style: none;
+  color: var(--color-brand);
+}
+
+.dark-theme .nav-menu__items {
+  color: var(--color-text-main-dark);
+}
+
+.nav-menu__item {
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.nav-menu__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.nav-menu__item .fa {
+  width: 10px;
+  display: inline-block;
+  padding-right: 16px;
+}
+
+.nav-buttons {
+  padding-top: 20px;
+  height: 120px;
+}
+
+.nav-buttons .nav-button {
+  margin-bottom: 10px;
+}
+
+.nav-buttons .nav-button:last-of-type {
+  margin-bottom: 0;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.burger .burger__line {
+  width: 30px;
+  height: 2px;
+  display: block;
+  transition: var(--transition-global);
+  background-color: var(--color-card-button-hover);
+}
+
+.nav-button_toggle-menu:hover > .burger__line {
+  background-color: var(--color-card-button);
+}
+
+.nav-button_toggle-menu.is-active .burger__line:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-button_toggle-menu.is-active .burger__line:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.nav-button_toggle-menu.is-active .burger__line:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}

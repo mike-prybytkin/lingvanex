@@ -1,0 +1,17 @@
+.title {
+  margin: 0;
+  line-height: 100%;
+  font-weight: 900;
+}
+
+h1.title {
+  font-size: clamp(5rem, 3vw, 7rem);
+}
+
+h2.title {
+  font-size: clamp(4rem, 3vw, 6rem);
+}
+
+h3.title {
+  font-size: clamp(2.4rem, 3vw, 3.4rem);
+}

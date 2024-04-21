@@ -1,0 +1,12 @@
+.language-solution__cards {
+  display: flex;
+  gap: 2rem;
+  padding-top: var(--gap-1);
+}
+
+@media screen and (max-width: 1024px) {
+  .language-solution__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

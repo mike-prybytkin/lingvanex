@@ -1,0 +1,20 @@
+@import './abstract/variables.css';
+
+@import './base/normalize.css';
+@import './base/base.css';
+
+@import './components/buttons.css';
+@import './components/burger-menu.css';
+@import './components/columns.css';
+@import './components/heading.css';
+@import './components/language-card.css';
+@import './components/slide.css';
+@import './components/slider.css';
+@import './components/title.css';
+
+@import './layout/header.css';
+@import './layout/section-hero.css';
+@import './layout/section-language-solution.css';
+@import './layout/section-product-for.css';
+@import './layout/section.css';
+@import './layout/wrapper.css';

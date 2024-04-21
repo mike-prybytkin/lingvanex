@@ -1,0 +1,40 @@
+.language-card {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.6rem;
+  border-radius: var(--br-1);
+  text-align: center;
+  box-shadow: var(--box-shadow-1);
+}
+
+.language-card__description {
+  color: var(--color-text-dark-2);
+}
+
+.dark-theme .language-card__description {
+  color: var(--color-text-main-dark);
+}
+
+.language-card__img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  max-height: 420px;
+  margin-top: auto;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
+  .language-card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .language-card {
+    width: 90%;
+  }
+}
